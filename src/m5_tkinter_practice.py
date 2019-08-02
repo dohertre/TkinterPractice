@@ -8,6 +8,9 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 import tkinter
 from tkinter import ttk
 
+def magic():
+    print('Magic')
+
 
 def main():
     """ Constructs a GUI with stuff on it. """
@@ -31,11 +34,11 @@ def main():
     magic_button.grid()
 
     # ------------------------------------------------------------------
-    # TODO: 5. After reading and understanding the m3e module,
+    # DONE: 5. After reading and understanding the m3e module,
     #   ** make your Button respond to a button-press **
     #   ** by printing   "Hello"  on the Console.     **
     # ------------------------------------------------------------------
-
+    magic_button['command'] = lambda: magic()
     # ------------------------------------------------------------------
     # TODO: 6. After reading and understanding the m4e module,
     #   -- Put an Entry box on the Frame.
