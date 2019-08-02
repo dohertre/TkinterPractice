@@ -55,6 +55,11 @@ def print_contents(entry_box):
     contents_of_entry_box = entry_box.get()
     print(contents_of_entry_box)
 
+    # contents_of_entry_box = int(entry_box.get())
+    # contents_of_entry_box += 10
+    # print(contents_of_entry_box)
+
+
 ########################################################################
 #
 # EXPLANATION of the above:
