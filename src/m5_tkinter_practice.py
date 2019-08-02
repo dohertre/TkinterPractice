@@ -100,7 +100,7 @@ def main():
     print_n_times_button['command'] = lambda: print_n_times(my_entry_box, my_entry_box_2)
     print_n_times_button.grid()
     # ------------------------------------------------------------------
-    # TODO: 8. As time permits, do other interesting GUI things!
+    # DONE: 8. As time permits, do other interesting GUI things!
     # ------------------------------------------------------------------
 
     root.mainloop()
