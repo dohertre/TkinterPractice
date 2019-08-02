@@ -18,14 +18,17 @@ def main():
     root = tkinter.Tk()
 
     # ------------------------------------------------------------------
-    # TODO: 3. After reading and understanding the m2e module,
+    # DONE: 3. After reading and understanding the m2e module,
     #   ** put a Frame on the window. **
     # ------------------------------------------------------------------
-
+    frame1 = ttk.Frame(root, padding=20)
+    frame1.grid()
     # ------------------------------------------------------------------
-    # TODO: 4. After reading and understanding the m2e module,
+    # DONE: 4. After reading and understanding the m2e module,
     #   ** put a Button on the Frame. **
     # ------------------------------------------------------------------
+    magic_button = ttk.Button(frame1, text='Magic Button')
+    magic_button.grid()
 
     # ------------------------------------------------------------------
     # TODO: 5. After reading and understanding the m3e module,
@@ -69,7 +72,7 @@ def main():
     # ------------------------------------------------------------------
     # TODO: 8. As time permits, do other interesting GUI things!
     # ------------------------------------------------------------------
-    
+
     root.mainloop()
 
 # ----------------------------------------------------------------------
